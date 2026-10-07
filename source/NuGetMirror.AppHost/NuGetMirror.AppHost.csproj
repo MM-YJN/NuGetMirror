@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.6.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>f4aa3103-46a3-4c39-9003-c39d22555ed3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NuGetMirror\NuGetMirror.csproj" />
+  </ItemGroup>
+
+</Project>

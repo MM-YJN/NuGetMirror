@@ -1,0 +1,36 @@
+{
+  "@id": "https://api.nuget.org/v3/catalog0/index.json",
+  "@type": [
+    "CatalogRoot",
+    "AppendOnlyCatalog",
+    "Permalink"
+  ],
+  "commitId": "abc12345-6789-4abc-1234-56789abcdef0",
+  "commitTimeStamp": "2025-06-01T00:00:00.0000000Z",
+  "count": 1,
+  "items": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/page0.json",
+      "@type": "catalog:CatalogPage",
+      "commitId": "abc12345-6789-4abc-1234-56789abcdef0",
+      "commitTimeStamp": "2025-06-01T00:00:00.0000000Z",
+      "count": 1
+    }
+  ],
+  "@context": {
+    "@vocab": "http://schema.nuget.org/catalog#",
+    "nuget": "http://schema.nuget.org/catalog#",
+    "catalog": "http://schema.nuget.org/catalog#",
+    "item": {
+      "@id": "@id"
+    },
+    "commitTimeStamp": "catalog:commitTimeStamp",
+    "commitId": "catalog:commitId",
+    "count": "catalog:count",
+    "parent": "catalog:parent",
+    "items": {
+      "@id": "child",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "http://schema.nuget.org/schema#"
+  },
+  "totalHits": 2,
+  "data": [
+    "Newtonsoft.Json",
+    "Newtonsoft.Json.Bson"
+  ]
+}

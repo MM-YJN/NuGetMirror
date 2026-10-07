@@ -1,0 +1,28 @@
+{
+  "@id": "https://api.nuget.org/v3/registration5-gz-semver2/newtonsoft.json/3.5.8.json",
+  "@type": [
+    "Package",
+    "http://schema.nuget.org/catalog#Permalink"
+  ],
+  "catalogEntry": "https://api.nuget.org/v3/catalog0/data/2022.12.08.16.43.03/newtonsoft.json.3.5.8.json",
+  "listed": true,
+  "packageContent": "https://api.nuget.org/v3-flatcontainer/newtonsoft.json/3.5.8/newtonsoft.json.3.5.8.nupkg",
+  "published": "2011-01-08T22:12:57.713+00:00",
+  "registration": "https://api.nuget.org/v3/registration5-gz-semver2/newtonsoft.json/index.json",
+  "@context": {
+    "@vocab": "http://schema.nuget.org/schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "catalogEntry": {
+      "@type": "@id"
+    },
+    "registration": {
+      "@type": "@id"
+    },
+    "packageContent": {
+      "@type": "@id"
+    },
+    "published": {
+      "@type": "xsd:dateTime"
+    }
+  }
+}

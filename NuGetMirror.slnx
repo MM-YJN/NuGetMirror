@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/source/">
+    <Project Path="source/NuGetMirror/NuGetMirror.csproj" />
+    <Project Path="source/NuGetMirror.AppHost/NuGetMirror.AppHost.csproj" />
+    <Project Path="source/NuGetMirror.ServiceDefaults/NuGetMirror.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NuGetMirror.UnitTests/NuGetMirror.UnitTests.csproj" />
+    <Project Path="tests/NuGetMirror.IntegrationTests/NuGetMirror.IntegrationTests.csproj" />
+    <Project Path="tests/NuGetMirror.TestKit/NuGetMirror.TestKit.csproj" />
+    <Project Path="tests/NuGetMirror.E2E.Tests/NuGetMirror.E2E.Tests.csproj" />
+    <Project Path="tests/NuGetMirror.Contract.Tests/NuGetMirror.Contract.Tests.csproj" />
+  </Folder>
+</Solution>
